@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Ваши данные</legend>
+            <ol>
+           <li><label for="FIO">ФИО<i>(обязательно для заполнения)</label></i></li>
+           <input type="text" id="FIO" placeholder="Маркова Анна Вадимовна" required/><br/><br/>
+            <li><label for="login">Логин<i>(обязательно для заполнения)</label></i></li>
+            <input type="text" id="login" placeholder="marcova78av" required/><br/><br/>
+           <li><label for="pass">Пароль<i>(обязательно для заполнения)</label></i></li>
+            <input type="pass" id="pass" placeholder="ann567m" required/><br/><br/>
+           <li><label for="pass">Подтверждение пароля<i>(обязательно для заполнения)</label></i></li>
+            <input type="pass" id="pass" placeholder="ann567m" required/><br/><br/>
+          <li><label for="email">Адрес электронной почты<i>(обязательно для заполнения)</label></i></li>
+            <input type="email" id="email" placeholder="marcovaann19@mail.com" required/><br/><br/>
+          <li><label for="phone">Номер телефона</label></li>
+            <input type="text" id="phone" placeholder="Номер" required/><br/><br/>
+          <li><label for="text">Адрес</label></li>
+            <input type="text" id="address" placeholder="Адрес" required/><br/><br/>
+             <li><label for="gender">Пол</label></li>
+            <br><input type="radio" name="IIWW" value="woman"/>женский
+            <input type="radio" name="IIWW" value="men"/>мужской<br/>
+           <li><br> <label for="color">Выбор цвета интерфейса:<i>красный,синий,жёлтый,зелёный,черный,белый</label></i></li>
+            <input type="text" id="color" placeholder="Черный" required/><br/><br/>
+           <li><label for="text">О себе</label></li>
+            <br/><br/>
+           <label for="addit">Расскажите немного о себе тут:</label><br/>
+            <textarea id="addit" cols="30" rows="10"></textarea><br/><br/>
+            <input type="button" name="send_d" value="Отправить"/>
+            <input type="reset" name="clr" value="Очистить форму"/>
+        </ol>
+      </fieldset>
+    </form>
+  </body>
+</html>
